@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Ankit yadav" />
+    <meta
+      name="description"
+      content="this code is for patient admission form."
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" href="icon.jpg" type="image/x-icon" />
+    <link rel="stylesheet" href="main.css" type="text/css" />
+    <title>NIROG HOSPITAL</title>
+  </head>
+  <body>
+    <h1>NIROG HOSPITAL</h1>
+    <h2>Patient Registration Form</h2>
+    <fieldset>
+      <legend>PATIENT DETAILS</legend>
+      <form action="https://httpbin.org/get" method="get">
+        <p>
+          <label for="patientname">Patient Name</label>
+          <input
+            type="text"
+            name="patientname"
+            id="patientname"
+            placeholder="enter name"
+            autocomplete="on"
+            required
+            autocapitalize="on"
+            autofocus
+          />
+        </p>
+        <p>
+          <label for="fathername">Father/Husband Name</label>
+          <input
+            type="text"
+            name="fathername"
+            id="fathername"
+            placeholder="enter name"
+            autocomplete="on"
+            required
+            autocapitalize="on"
+          />
+        </p>
+        <p>
+          <label for="Age">Age</label>
+          <input
+            type="number"
+            name="Age"
+            id="Age"
+            placeholder="enter year"
+            min="0"
+            max="100"
+            autocomplete="on"
+            required
+          />
+          <input
+            type="number"
+            name="month"
+            id="month"
+            placeholder="enter month"
+            min="0"
+            max="11"
+            autocomplete="on"
+          />
+        </p>
+
+        <p>
+           <label for="gender">Gender</label>
+          <input type="radio" name="Gender" id="Male" value="Male" />
+          <label for="Male">Male</label>
+
+          <input type="radio" name="Gender" id="Female" value="Female" />
+          <label for="Female">Female</label>
+
+          <input type="radio" name="Gender" id="other" value="other" />
+          <label for="other">other</label>
+        </p>
+
+        <p>
+          <label for="tel">Mob Number</label>
+          <input
+            type="tel"
+            name="Phone"
+            id="tel"
+            placeholder="0123456789"
+            autocomplete="on"
+          />
+        </p>
+        <p>
+          <label for="time"> Date and time of visit</label>
+          <input
+            type="datetime-local"
+            name="time"
+            id="time"
+            autocomplete="on"
+          />
+          <button type="reset">Reset</button>
+        </p>
+        <p>
+          <label for="department"> OPD Department</label>
+          <input
+            type="text"
+            name="department"
+            id="department"
+            list="department-list"
+            placeholder="OPD department"
+          />
+          <datalist id="department-list">
+            <option value="Anesthesiology"></option>
+            <option value="Cardiology"></option>
+            <option value="Cardiovascular and Thoracic Surgery"></option>
+            <option value="Dentistry"></option>
+            <option value="Endocrinology"></option>
+            <option value="Gastroentrology"></option>
+            <option value="General Medicine"></option>
+            <option value="General Surgery"></option>
+            <option value="Nephrology"></option>
+            <option value="Neuro-Surgery"></option>
+            <option value="Neurology"></option>
+            <option value="Orthopedics"></option>
+            <option value="Ophthalmology"></option>
+            <option value="Plastic Surgery"></option>
+            <option value="Radiological Physics"></option>
+            <option value="Radiotherapy"></option>
+            <option value="Radiodiagnosis"></option>
+            <option value="Surgical Gestroentrology"></option>
+            <option value="Surgical Oncology"></option>
+            <option value="Urology"></option>
+            <option value="Otorhinolaryngology"></option>
+            <option value="Physical Medicine and Rehabilitation (RRC)"></option>
+          </datalist>
+        </p>
+
+        <button type="submit">Register</button>
+        <button type="reset">Reset</button>
+      </form>
+    </fieldset>
+  </body>
+</html>

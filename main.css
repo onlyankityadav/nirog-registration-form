@@ -1,0 +1,53 @@
+h1 {
+    text-align: center;
+    background-color: brown;
+    color: white;
+}
+h2 {
+    text-align: center;
+    background-color:yellow;
+    color:red;
+}
+body {
+    margin-left: 20%;
+    margin-right:20%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+legend {
+    color: red;
+    text-align: center;
+}
+button{
+    color:  #fff;
+    background-color: #04AA6D;
+    box-shadow: 0 9px #999;
+}
+button:hover {
+    background-color: aqua;
+    color:orangered;
+}
+fieldset {
+    color:#04AA6D;
+    margin-left: 20%;
+    margin-right:20%;
+    margin-bottom: 10%;
+}
+label {
+    text-align: center;
+    color: brown;
+    display: inline-block;
+}
+strong {
+    color: brown;
+}
+input {
+    background-color: #999;
+    display: inline-block;
+    padding: 5px 5px 2px 2px;
+}
+:placeholder-shown {
+    text-align: center;
+    
+}
+
